@@ -1,0 +1,89 @@
+body {
+    font:15px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-width: 70px;
+    border-bottom: #e8491d 3px solid;
+
+}
+header ul {
+    padding: 0;
+    margin: 0;
+    /*float: left;
+    display: inline;*/
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+header #branding {
+    float: left;
+}
+
+header #branding hi{
+    margin: 0;
+}
+
+header .login {
+    float: right;
+    margin-top:15px;
+}
+header .highlight {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+
+.cointainer p {
+    margin-top:10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+ #content {
+    float: left;
+    width 80%;
+    color: blue;
+    padding: 8px;
+}
+
+article {
+    min-height: auto;
+    text-align: left;
+
+    /*/*float: left;*/
+}
+aside{
+    padding-top:10px;
+    padding-bottom :29px;
+    padding-left: 10px;
+}
+#yyy  {
+    color:blue;
+    font-size: 30px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
